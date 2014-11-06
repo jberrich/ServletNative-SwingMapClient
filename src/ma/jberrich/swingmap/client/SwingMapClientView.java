@@ -119,13 +119,13 @@ public class SwingMapClientView extends FrameView {
 				}
 		);
 		saveMenuItem.setName("saveMenuItem");
-		saveMenuItem.setIcon(new ImageIcon(getClass().getResource("/ma/ensao/swingmap/client/resources/icons/save.png")));
+		saveMenuItem.setIcon(new ImageIcon(getClass().getResource("/ma/jberrich/swingmap/client/resources/icons/save.png")));
 		saveMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK));
 		saveMenuItem.setText(resourceMap.getString("saveMenuItem.text"));
 		
 		exitMenuItem.setAction(actionMap.get("quit"));
 		exitMenuItem.setName("exitMenuItem");
-		exitMenuItem.setIcon(new ImageIcon(getClass().getResource("/ma/ensao/swingmap/client/resources/icons/exit.png")));
+		exitMenuItem.setIcon(new ImageIcon(getClass().getResource("/ma/jberrich/swingmap/client/resources/icons/exit.png")));
 		
 		fileMenu.add(saveMenuItem);
 		fileMenu.addSeparator();
@@ -167,7 +167,7 @@ public class SwingMapClientView extends FrameView {
 		cityLabel = new JLabel(resourceMap.getString("cityLabel.text"));
 		cityLabel.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		timeButton = new JButton(new ImageIcon(getClass().getResource("/ma/ensao/swingmap/client/resources/icons/time.png")));
+		timeButton = new JButton(new ImageIcon(getClass().getResource("/ma/jberrich/swingmap/client/resources/icons/time.png")));
 //		timeButton.setFocusPainted(false);
 //		timeButton.setRolloverEnabled(false);
 		timeButton.setOpaque(false);
@@ -248,7 +248,7 @@ public class SwingMapClientView extends FrameView {
 		
 		timezonePanel.setLayout(new BorderLayout());		
 		timezonePanel.add(timezoneLabel, BorderLayout.CENTER);
-		getFrame().setIconImage(new ImageIcon(getClass().getResource("/ma/ensao/swingmap/client/resources/icons/map.png")).getImage());
+		getFrame().setIconImage(new ImageIcon(getClass().getResource("/ma/jberrich/swingmap/client/resources/icons/map.png")).getImage());
 		setComponent(mainPanel);
 		setMenuBar(menuBar);
 		setStatusBar(timezonePanel);
