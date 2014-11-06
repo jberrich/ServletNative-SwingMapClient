@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view>
+    <country index="39"/>
+    <city index="18197"/>
+    <timezone>--/--/---- --:--:--</timezone>
+    <map>
+        <center latitude="34.680524999999996" longitude="-1.9076389999999965"/>
+        <zoom value="5"/>
+    </map>
+</view>
